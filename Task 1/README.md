@@ -21,10 +21,10 @@ chmod +x random_numbers.sh
 ```
 
 Run the tests and the optional linter:
-
+```
 make test   # executes both test scripts
 make lint   # shellcheck (optional)
-
+```
 --- 
 
 ## Description
