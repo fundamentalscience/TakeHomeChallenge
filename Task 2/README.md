@@ -19,7 +19,7 @@ This task designs and documents **two alternative monitoring solutions** for a h
 
 ---
 
-## Build / Installation
+## Build / Installation - Solution 2: Scripts
 ```
 git clone https://github.com/fundamentalscience/TakeHomeChallenge.git
 cd "../Task 2/Solution 2 With Scripts/monitoring-bash
@@ -29,7 +29,7 @@ chmod +x monitor.sh bin/*.sh
 sudo cp monitoring-bash.service /etc/systemd/system/
 sudo systemctl enable --now monitoring-bash.service
 ```
-## Description
+## Description - Solution 2: Scripts
 
 Metrics Collected
 ```
