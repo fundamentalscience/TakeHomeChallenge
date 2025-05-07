@@ -34,7 +34,7 @@ monitoring-bash/
 ## 3 – Quick Start
 
 ```bash
-git clone https://github.com/<your-user>/TakeHomeChallenge.git
+git clone https://github.com/<fundamentalscience>/TakeHomeChallenge.git
 cd "../Task 2/Solution 2 With Scripts/monitoring-bash
 chmod +x monitor.sh bin/*.sh
 # run once for a smoke test
