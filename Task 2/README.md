@@ -14,24 +14,24 @@ This task designs and documents **two alternative monitoring solutions** for a h
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-user>/TakeHomeChallenge.git
+git clone https://github.com/<fundamentalscience>/TakeHomeChallenge.git
 cd TakeHomeChallenge/Task\ 2
 ```
 ## Usage 
 
 Script variant – example manual run:
 ```
-bash "Solution 2 With Scripts/collect_metrics.sh"
+bash "Solution 2 With Scripts/monitor.sh"
 ```
 ## Description
 
 Metrics Collected
-
+```
 Alerting Strategy
 	•	Warning at 90 % SLA, High at 100 % SLA breach.
 	•	Multi-stage: soft trigger (5 min), hard trigger (15 min) to reduce flapping.
 	•	Notifies on-call via e-mail + Slack webhook; escalates to phone after 30 min.
-
+```
 Architecture and flow diagrams are included as PNGs inside each solution folder.
 
 ## Known Limitations
