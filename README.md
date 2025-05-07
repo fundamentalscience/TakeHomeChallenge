@@ -1,2 +1,2 @@
 # TakeHomeChallenge
-Interview take-home:
+Interview take-home
