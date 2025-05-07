@@ -10,18 +10,14 @@ This task designs and documents **two alternative monitoring solutions** for a h
 ---
 
 ## Build / Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/<fundamentalscience>/TakeHomeChallenge.git
-cd TakeHomeChallenge/Task\ 2
 ```
-## Usage 
-
-Script variant – example manual run:
-```
-bash "Solution 2 With Scripts/monitor.sh"
+git clone https://github.com/<your-user>/TakeHomeChallenge.git
+cd monitoring-bash
+chmod +x monitor.sh bin/*.sh
+# run once for a smoke test
+./monitor.sh
+sudo cp monitoring-bash.service /etc/systemd/system/
+sudo systemctl enable --now monitoring-bash.service
 ```
 ## Description
 
