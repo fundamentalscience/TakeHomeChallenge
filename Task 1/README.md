@@ -22,6 +22,12 @@ chmod +x random_numbers.sh
 
 Run the tests and the optional linter:
 ```
+# RHEL, Rocky, Alma, Fedora
+if ! command -v make &>/dev/null; then
+  echo "make not found — installing via dnf..."
+  sudo dnf install make -y
+fi
+```
 make test   # executes both test scripts
 make lint   # shellcheck (optional)
 ```
