@@ -16,7 +16,7 @@ No agents, no daemons—only GNU coreutils, curl, and OpenSSL.
 * Log rotation out of the box
 
 ## 2 – Directory Layout
-
+```
 monitoring-bash/
 ├── bin/
 │   ├── gather_rps.sh
@@ -30,12 +30,12 @@ monitoring-bash/
 ├── monitor.sh                  # orchestration wrapper
 ├── cron.sample                 # drop into /etc/cron.d/
 └── logrotate.sample            # drop into /etc/logrotate.d/
-
+```
 ## 3 – Quick Start
 
 ```bash
-git clone <your-repo> monitoring-bash
-cd monitoring-bash
+git clone https://github.com/<your-user>/TakeHomeChallenge.git
+cd "../Task 2/Solution 2 With Scripts/monitoring-bash
 chmod +x monitor.sh bin/*.sh
 # run once for a smoke test
 ./monitor.sh
