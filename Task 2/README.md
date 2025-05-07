@@ -31,9 +31,8 @@ Alerting Strategy
 Architecture and flow diagrams are included as PNGs inside each solution folder.
 
 ## Known Limitations
-Zabbix
-Requires Zabbix 7 agent; older 5.0 LTS lacks tls.* item keys.
-Scripts
-Relies on /proc and ss; will need tweaks on FreeBSD/Alpine.
-Both
-$RANDOM used in demo traffic generator is not production grade randomness.
+```
+Zabbix Requires Zabbix 7 agent; older 5.0 LTS lacks tls.* item keys.
+Scripts Relies on /proc and ss; will need tweaks on FreeBSD/Alpine.
+Both $RANDOM used in demo traffic generator is not production grade randomness.
+```
