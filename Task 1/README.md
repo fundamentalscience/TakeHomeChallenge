@@ -9,6 +9,7 @@ Includes a Makefile and two portable test cases.
 ```bash
 
 git clone https://github.com/fundamentalscience/TakeHomeChallenge
+cd Task 1
 chmod +x random_numbers.sh
 ```
 
