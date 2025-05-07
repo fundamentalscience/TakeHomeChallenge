@@ -25,12 +25,6 @@ if ! command -v make &>/dev/null; then
   echo "make not found — installing via dnf..."
   sudo dnf install make -y
 fi
-
-# (Debian/Ubuntu kullanıyorsan)
-# if ! command -v make &>/dev/null; then
-#   echo "make not found — installing via apt..."
-#   sudo apt-get update && sudo apt-get install -y make
-# fi
 ```
 Run the tests and the optional linter:
 
