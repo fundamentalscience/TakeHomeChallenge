@@ -1,15 +1,12 @@
-# random-numbers order – Task 1
+# Task 1 – random-numbers order
 
 Pure Bash script that prints the numbers **1 through 10 in random order**, each appearing exactly once.  
-Includes a Makefile and two portable test cases.
+Includes a Makefile plus two portable test cases.
 
----
-
-## Build / Installation
-
-No compilation required. Clone the repo and make the script executable:
+## Quick start
 
 ```bash
 git clone https://github.com/fundamentalscience/TakeHomeChallenge.git
-cd random-seq
-chmod +x random_numbers.sh
+cd "TakeHomeChallenge/Task 1"
+make run      # prints e.g. 7 3 1 9 2 8 6 4 10 5
+make test     # PASS: output.sh ✦ PASS: multiple_random.sh
