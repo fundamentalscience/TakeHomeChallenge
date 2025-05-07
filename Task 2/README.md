@@ -4,7 +4,7 @@ This task designs and documents **two alternative monitoring solutions** for a h
 
 | Variant | Directory | Stack | When to prefer |
 |---------|-----------|-------|----------------|
-| **Solution 1 – Zabbix** | `Solution 1 With Zabbix/` | Zabbix 7 LTS agent + server, ready-made template | You already run Zabbix and want deep, UI-driven dashboards & alerting |
+| **Solution 1 – Zabbix** | `Solution 1 With Zabbix/` | Zabbix 7 LTS agent + server, ready-made template | Already run Zabbix and want deep, UI-driven dashboards & alerting |
 | **Solution 2 – Scripts** | `Solution 2 With Scripts/` | Pure Bash scripts + cron + `mail` / `slack-cli` | Lightweight hosts or edge nodes where Zabbix agent/server are not available |
 
 ---
@@ -12,7 +12,7 @@ This task designs and documents **two alternative monitoring solutions** for a h
 ## Build / Installation
 ```
 git clone https://github.com/<your-user>/TakeHomeChallenge.git
-cd monitoring-bash
+cd "../Task 2/Solution 2 With Scripts/monitoring-bash
 chmod +x monitor.sh bin/*.sh
 # run once for a smoke test
 ./monitor.sh
