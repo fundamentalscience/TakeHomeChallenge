@@ -8,16 +8,16 @@ Includes a Makefile and two portable test cases.
 ## Build
 ```bash
 
-git clone https://github.com/<your-user>/random-seq.git
-cd random-seq
+git clone https://github.com/fundamentalscience/TakeHomeChallenge
 chmod +x random_numbers.sh
 ```
 
 --- 
 
 ## Usage
-
+```
 ./random_numbers.sh
+```
 
 Run the tests and the optional linter:
 
