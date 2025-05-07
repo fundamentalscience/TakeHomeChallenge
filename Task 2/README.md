@@ -1,5 +1,15 @@
 # Task 2 – TLS Off-load Proxy Monitoring @ ≈ 25 k RPS  
 
+---
+
+### Detailed Report
+
+The full lab architecture write-up, metric matrix and alert-tuning discussion are available in the Zabbix variant as a DOCX:
+
+[📄 Task 2 Detailed Report (Solution 1 With Zabbix)](Solution%201%20With%20Zabbix/Task2.docx)
+
+---
+
 This task designs and documents **two alternative monitoring solutions** for a high-throughput TLS off-load proxy (~23 000 requests / second):
 
 | Variant | Directory | Stack | When to prefer |
