@@ -19,19 +19,15 @@ chmod +x random_numbers.sh
 ```
 ./random_numbers.sh
 ```
-```
-# RHEL, Rocky, Alma, Fedora
-if ! command -v make &>/dev/null; then
-  echo "make not found — installing via dnf..."
-  sudo dnf install make -y
-fi
-```
 Run the tests and the optional linter:
-
+```
+  sudo dnf install make -y
+```
+```
 make test   # executes both test scripts
 make lint   # shellcheck (optional)
 ```
---- 
+---
 
 ## Description
 	1.	Numbers 1–10 are stored in a Bash array.
