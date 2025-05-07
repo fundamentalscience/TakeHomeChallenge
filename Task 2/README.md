@@ -21,7 +21,7 @@ This task designs and documents **two alternative monitoring solutions** for a h
 
 ## Build / Installation
 ```
-git clone https://github.com/<your-user>/TakeHomeChallenge.git
+git clone https://github.com/fundamentalscience/TakeHomeChallenge.git
 cd "../Task 2/Solution 2 With Scripts/monitoring-bash
 chmod +x monitor.sh bin/*.sh
 # run once for a smoke test
