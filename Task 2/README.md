@@ -36,7 +36,6 @@ Metrics Collected
 Alerting Strategy
 	•	Warning at 90 % SLA, High at 100 % SLA breach.
 	•	Multi-stage: soft trigger (5 min), hard trigger (15 min) to reduce flapping.
-	•	Notifies on-call via e-mail + Slack webhook; escalates to phone after 30 min.
 ```
 Architecture and flow diagrams are included as PNGs inside each solution folder.
 
