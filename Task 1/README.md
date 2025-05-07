@@ -7,9 +7,10 @@ Includes a Makefile and two portable test cases.
 
 ## Build
 ```bash
+
 git clone https://github.com/<your-user>/random-seq.git
 cd random-seq
-chmod +x random_numbers.sh ```
+chmod +x random_numbers.sh```
 
 --- 
 
