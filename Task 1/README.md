@@ -19,15 +19,21 @@ chmod +x random_numbers.sh
 ```
 ./random_numbers.sh
 ```
-
-Run the tests and the optional linter:
 ```
 # RHEL, Rocky, Alma, Fedora
 if ! command -v make &>/dev/null; then
   echo "make not found — installing via dnf..."
   sudo dnf install make -y
 fi
+
+# (Debian/Ubuntu kullanıyorsan)
+# if ! command -v make &>/dev/null; then
+#   echo "make not found — installing via apt..."
+#   sudo apt-get update && sudo apt-get install -y make
+# fi
 ```
+Run the tests and the optional linter:
+
 make test   # executes both test scripts
 make lint   # shellcheck (optional)
 ```
